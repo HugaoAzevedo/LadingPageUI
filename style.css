@@ -177,9 +177,30 @@ button{
     padding: 0;
 }
 
-.footer{
-    background-color: #F84646;
-    color: white;
-    margin: 0;
-    padding: 0;
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    text-align: left;
+    
+}
+.footer-text > ul > li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 2rem;
+}
+.footer-text > ul > li:first-child{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+} 
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-copyright > div img{
+    margin-right:.5rem ;
 }
